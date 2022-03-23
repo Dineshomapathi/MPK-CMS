@@ -1,0 +1,5 @@
+option batch abort
+option confirm off
+open sftp://root@34.87.139.219/ -hostkey="ssh-ed25519 255 hSmF98MwsHfu7pANMltL6yLKMRYA1UprS3Iium4o7bU=" -privatekey="C:\Users\End User\Desktop\private_key.ppk"
+synchronize local "C:\Users\End User\Desktop\MPK Files" /var/www/mympk/storage/app/public/uploads
+exit
